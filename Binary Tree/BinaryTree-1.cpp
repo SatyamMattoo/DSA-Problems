@@ -55,7 +55,6 @@ void levelTraversal(node *root)
             cout << endl;
             if (!q.empty())
             {
-
                 q.push(NULL);
             }
         }
@@ -64,12 +63,10 @@ void levelTraversal(node *root)
             cout << temp->data << " ";
             if (temp->left)
             {
-
                 q.push(temp->left);
             }
             if (temp->right)
             {
-
                 q.push(temp->right);
             }
         }
@@ -156,7 +153,7 @@ int main()
     // root = buildTree(root);
 
     buildLevelTree(root);
-    //1 3 5 7 11 17 -1 -1 -1 -1 -1 -1 -1
+    // 1 3 5 7 11 17 -1 -1 -1 -1 -1 -1 -1
     levelTraversal(root);
 
     // inOrder(root);

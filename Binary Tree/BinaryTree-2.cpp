@@ -1,4 +1,4 @@
-// No of leaft nodes and reverse level order traversal
+// No of leaf nodes and reverse level order traversal
 
 #include <iostream>
 #include <queue>
@@ -8,7 +8,7 @@ using namespace std;
 class node
 {
 public:
-    int data;
+    int data; 
     node *left;
     node *right;
 
